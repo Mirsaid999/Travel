@@ -1,0 +1,36 @@
+@import './fonts.css';
+@import './header.css';
+@import './nav.css';
+@import './main.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+    padding: 16px 0;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
